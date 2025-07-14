@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
 .panda-btn{
     border-radius: 6px;
@@ -89,6 +90,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 text-align: left;
+max-width: 500px;
 }
 
 .banner-price{
@@ -98,4 +100,75 @@ font-weight: bold;
 text-align: left;
 display: block;
 padding-bottom: 30px;
+}
+
+.catagories-card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.catagory-card-1{
+        justify-content: center;
+    align-items: center;
+    width: 359px;
+    display: flex;
+height: 120px;
+background: linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+gap: 100px;
+border-radius: 13px;
+}
+.catagory-card-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 359px;
+height: 120px;
+/* Linear */
+background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+gap: 100px;
+border-radius: 13px;
+}
+.catagory-card-3{
+    display: flex;
+    justify-content: center;
+align-items: center;
+background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+  width: 359px;
+height: 120px;
+gap: 100px;
+border-radius: 13px;
+}
+
+.catagory-card-1 img{
+      width: 100px;
+height: 100px;
+}
+.catagory-card-2 img{
+      width: 100px;
+height: 100px;
+}
+.catagory-card-3 img{
+      width: 100px;
+height: 100px;
+}
+
+.catagories-card-container h3{
+    color: rgb(255, 255, 255);
+font-family: Poppins;
+font-size: 36px;
+font-weight: 500;
+line-height: 54px;
+letter-spacing: 0%;
+text-align: left;
+}
+.catagories h1{
+    color: rgb(31, 31, 31);
+font-family: Poppins;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: 0%;
+text-align: left;
 }
